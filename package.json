@@ -1,0 +1,46 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmsinKrissada/homework-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmsinKrissada/homework-web/issues"
+  },
+  "homepage": "https://github.com/OmsinKrissada/homework-web#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap-table": "^1.18.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@webpack-cli/generators": "^2.2.0",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^1.6.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.41.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
