@@ -23,6 +23,7 @@ export default {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',
+            publicPath: '/homework'
         }),
 
         // Add your plugins here
