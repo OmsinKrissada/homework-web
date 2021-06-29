@@ -1,5 +1,6 @@
 // const sortable = await import('./sortable.min.js');
 // sortable.init();
+import('../assets/sortable.min.js');
 import lodash from 'lodash';
 import axios from 'axios';
 import moment from 'moment';
